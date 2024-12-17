@@ -1,0 +1,170 @@
+<html>
+ <head>
+  <title>
+   Design Portfolio
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+      }
+        .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px 0 7px;
+      }
+      .header .logo {
+        font-size: 2em;
+        font-weight: bold;
+        color: #0056ff;
+      }
+      .header nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #0056ff;
+        font-weight: bold;
+      }
+      .header .download-cv {
+        background-color: #b5651d;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+        text-decoration: none;
+      }
+        .section {
+            padding: 10px 50px;
+        }
+        .section h2 {
+            color: #007bff;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            
+        }
+        .grid img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            transition: width 0.3s ease, height 0.3s ease, border-radius 0.3s ease;
+        }
+        .grid img:hover {
+            width: 150%;
+            height: 100%;
+            z-index: 9999;
+            border-radius: 35px;
+            position: relative;
+            align-items: center;
+        }
+        .grid video {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .sub p {
+          text-align: center;
+          margin-top: 50px;
+          color: darkgray;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .header {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+  </style>
+ </head>
+ <body>
+    <div class="container">
+        <div class="header">
+          <div class="logo">Yogg.</div>
+          <nav>
+            <a href="index.html">Home</a>
+            <a href="Resume.html">About</a>
+            <a href="Services.html">Services</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="contact.html" style="position: absolute;z-index: 9999 ;">Contact</a>
+          </nav>
+          <a href="https://drive.google.com/file/d/1uSU4_iTi8qj4uRQWYQ7hS4J4_XN1SNcw/view?usp=sharing" class="download-cv">Download CV</a>
+        </div>
+  <section class="section" style="padding-top: 40px;">
+   <h2>
+    Social Media Design
+   </h2>
+   <div class="grid">
+    <img alt="social media design 1" height="300" src="img/Feed/57.png" width="300"/>
+    <img alt="social media design 2" height="300" src="img/Feed/58.png" width="300"/>
+    <video alt="social media design 3" height="300" src="img/Feed/59.mp4" width="300" autoplay muted loop></video>
+    <img alt="social media design 4" height="300" src="img/Feed/kiri.png" width="300"/>
+    <img alt="social media design 5" height="300" src="img/Feed/tngh.png" width="300"/>
+    <img alt="social media design 6" height="300" src="img/Feed/kanan.png" width="300"/>
+   </div>
+   <div class="sub">
+     <p>The project above was created as part of the Informatics Competition organized by Universitas Pamulang. As the coordinator, I was entrusted with various responsibilities, including overseeing the design process and ensuring the successful publication of the feed. My role involved conceptualizing the visual elements, refining the layout, and delivering a final output that effectively represents the event’s theme and objectives. This work reflects both creative effort and careful planning to engage the audience and enhance the overall presentation of the competition.</p>
+   </div>
+  </section>
+  <section class="section">
+   <h2>
+    Apparel Design
+   </h2>
+   <div class="grid" style="position: relative;padding-left: 130px;padding-top: 40px;">
+    <img alt="apparel design 1" height="300" src="img/man-wearing-blank-shirt.png" width="300"/>
+    <img alt="apparel design 2" height="300" src="img/set-black-hoodies-front-back.png" width="300"/>
+   </div>
+   <div class="sub">
+     <p>The design above was created as part of a custom apparel order. This work was produced purely to meet the client’s request, without any particular story or background behind the design. It focuses on delivering a clean, professional, and visually appealing result that aligns with the client’s vision and needs</p>
+   </div>
+  </section>
+  <section class="section">
+   <h2>
+    Motion Graphic
+   </h2>
+   <div class="grid">
+    <video alt="motion graphic 1" height="300" src="vd/4.mp4" width="300" autoplay muted loop></video>
+    <video alt="motion graphic 2" height="300" src="vd/3.mp4" width="300" autoplay muted loop ></video>
+    <video alt="motion graphic 3" height="300" src="vd/2.mp4" width="300" autoplay muted loop ></video>
+    <video alt="motion graphic 4" height="300" src="vd/5.mp4" width="300" autoplay muted loop></video>
+    <video alt="motion graphic 5" height="300" src="vd/6.mp4" width="300" autoplay muted loop></video>
+    <video alt="motion graphic 6" height="300" src="vd/8.mp4" width="300" autoplay muted loop></video>
+   </div>
+   <div class="sub">
+     <p>The motion graphic above was created as part of a personal project driven by my passion for design and animation. Born from a hobby, this work reflects my creativity and dedication to exploring motion graphics as a form of visual storytelling. It serves as both a practice and a way to express my ideas, allowing me to continually improve my skills while enjoying the process of creation.</p>
+   </div>
+  </section>
+  <section class="section">
+   <h2>
+    More Design
+   </h2>
+   <div class="grid">
+    <img alt="more design 1" height="300" src="img/Pster/susheeee.png" width="300"/>
+    <img alt="more design 2" height="300" src="img/Pster/Untitle222.png" width="300"/>
+    <img alt="more design 3" height="300" src="img/Pster/Untitled-1 (1).png" width="300"/>
+    <img alt="more design 4" height="300" src="img/Pster/Untitled-1.png" width="300"/>
+    <img alt="more design 5" height="300" src="img/Pster/Untitled-2221.png" width="300"/>
+    <img alt="more design 6" height="300" src="img/Pster/Untitled-331.jpg" width="300"/>
+   </div>
+   <div class="sub">
+     <p>For more designs, feel free to explore my other works, where I continue to experiment with creativity and innovation across various mediums. Each piece represents a unique approach to design, whether it’s for personal projects, client requests, or creative explorations. I’m always striving to push boundaries, refine my skills, and deliver visuals that inspire and engage.</p>
+   </div>
+  </section>
+ </body>
+</html>
